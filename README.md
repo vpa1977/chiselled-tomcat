@@ -1,4 +1,4 @@
-# Chiselled tomcat container
+# Tomcat in a chiselled jre container
 
 This repository contains a docker file to deploy tomcat in a chiselled jre image.
 

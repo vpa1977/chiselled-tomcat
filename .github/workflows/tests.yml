@@ -1,4 +1,4 @@
-name: "Chiselled Ubuntu 'jre' Tests"
+name: "Chiselled Tomcat Tests"
 
 on:
   pull_request:
@@ -25,7 +25,10 @@ jobs:
         run: |
           ./build-tomcat-10.sh
 
-
       - name: Build tomcat 9 image
         run: |
           ./build-tomcat-9.sh
+
+      - name: Build sample container
+        run: |
+          docker build -t sample sample

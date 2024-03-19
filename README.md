@@ -17,7 +17,7 @@ Run `./build-tomcat-9.sh` to build the `chiselled-tomcat-9` container.
 It builds a chiselled Ubuntu 22.04 container running Java 8 and Tomcat 9.0.87.
 
 Run `./build-tomcat-9.sh` to build `chiselled-tomcat-10` container.
-It builds a chiselled Ubuntu 22.04 container running Java 17 and Tomcat 10.0.19.
+It builds a chiselled Ubuntu 22.04 container running Java 17 and Tomcat 10.1.19.
 
 ## Deploying an application
 

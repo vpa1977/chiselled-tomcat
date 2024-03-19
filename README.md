@@ -1,5 +1,16 @@
 # Chiselled tomcat container
 
+This repository contains a docker file to deploy tomcat in a chiselled jre image.
+
+Image size comparison:
+
+| Image              | Tag | Size (Uncompressed) | % vs official image|
+|--------------------|-----|---------------------|--------------------|
+|chiselled-tomcat-10 |  latest       |  149MB    | 51%                 |
+|tomcat              |  10.1.19-jre17| 288MB     | -                  |
+|chiselled-tomcat-9  |  latest       | 131MB     | 53%          |
+|tomcat              |  9.0.87-jre8  | 243MB     |- |
+
 ## Building
 
 Run `./build-tomcat-9.sh` to build the `chiselled-tomcat-9` container.
